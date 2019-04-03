@@ -1,7 +1,7 @@
 {
   "name": "sonar-project-properties",
   "version": "1.0.1",
-  "description": "Update sonar-project.properties with projectName and version platform independent",
+  "description": "Update sonar-project.properties projectName and projectVersion platform independent",
   "main": "cli.js",
   "bin": {
     "update-sonar-properties": "./cli.js"
