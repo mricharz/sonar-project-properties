@@ -1,0 +1,32 @@
+{
+  "name": "sonar-project-properties",
+  "version": "1.0.1",
+  "description": "Update sonar-project.properties with projectName and version platform independent",
+  "main": "cli.js",
+  "bin": {
+    "update-sonar-properties": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mricharz/sonar-project-properties.git"
+  },
+  "keywords": [
+    "cli",
+    "sonar",
+    "sonar-project.properties",
+    "projectVersion",
+    "projectName"
+  ],
+  "author": "Manuel Richarz <manuel.richarz@nysoft.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mricharz/sonar-project-properties/issues"
+  },
+  "homepage": "https://github.com/mricharz/sonar-project-properties#readme",
+  "dependencies": {
+    "yargs": "^13.2.2"
+  }
+}
