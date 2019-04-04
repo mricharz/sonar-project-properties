@@ -53,7 +53,5 @@ if (argv.v) {
 if (replacements.length) {
     replace(replacements, file)
         .then(() => argv.v && console.log('Updated ' + file))
-        .catch(err => {
-            console.error(err)
-        })
+        .catch(err => console.error(err))
 }
