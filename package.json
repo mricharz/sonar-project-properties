@@ -1,6 +1,6 @@
 {
   "name": "sonar-project-properties",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Update sonar-project.properties projectName and projectVersion platform independent",
   "main": "cli.js",
   "bin": {
@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/mricharz/sonar-project-properties#readme",
   "dependencies": {
-    "yargs": "^13.2.2"
+    "yargs": "^16.2.0"
   }
 }
